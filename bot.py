@@ -3,7 +3,8 @@
 import os
 import asyncio
 import traceback
-from pyrogram import filters, enums
+from pyrogram import filters
+from pyrogram import enums
 
 # Rest of your code
 
