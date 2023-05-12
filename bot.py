@@ -75,7 +75,7 @@ async def start(bot: Client, cmd: Message):
     if usr_cmd == "/start":
         await add_user_to_database(bot, cmd)
         if(Config.LAZY_MODE == True):
-            await cmd.reply_photo(photo=lazy_pic,
+#             await cmd.reply_photo(photo=lazy_pic,
             caption=Config.LAZY_HOME_TEXT.format(cmd.from_user.first_name, cmd.from_user.id),
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -91,7 +91,7 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/MoviezAddaKan")
                     ]]))
         else :
-            await cmd.reply_photo(photo=lazy_pic,
+#             await cmd.reply_photo(photo=lazy_pic,
             caption=Config.HOME_TEXT.format(cmd.from_user.first_name, cmd.from_user.id),
             reply_markup=InlineKeyboardMarkup(
                 [
