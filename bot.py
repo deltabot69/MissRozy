@@ -89,7 +89,8 @@ async def start(bot: Client, cmd: Message):
                     ],
                     [
                         InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/MoviezAddaKan")
-                    ]]))
+                    ]
+                ])
         else :
 #             await cmd.reply_photo(photo=lazy_pic,
             caption=Config.HOME_TEXT.format(cmd.from_user.first_name, cmd.from_user.id),
@@ -105,7 +106,8 @@ async def start(bot: Client, cmd: Message):
                     ],
                     [
                         InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/MoviezAddaKan")
-                    ]]))
+                    ]
+                ])
            
     else:
         try:
