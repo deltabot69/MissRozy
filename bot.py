@@ -3,6 +3,10 @@
 import os
 import asyncio
 import traceback
+from pyrogram import filters
+
+# Rest of your code
+
 lazy_pic = os.environ.get("LAZY_PIC","")
 from binascii import (
     Error
