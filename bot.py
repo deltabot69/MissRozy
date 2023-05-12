@@ -80,15 +80,15 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/MoviezAddKan"),
+                        InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/MoviezAddaKan")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/MoviezAddaKan")
                     ]]))
         else :
             await cmd.reply_photo(photo=lazy_pic,
@@ -96,15 +96,15 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/MoviezAddaKan"),
+                        InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/MoviezAddaKan")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://youtu.be/Rtjyz3lEZwE")
+                        InlineKeyboardButton("⎝⎝✧✧ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ✧✧⎠⎠", url="https://t.me/MoviezAddaKan")
                     ]]))
            
     else:
